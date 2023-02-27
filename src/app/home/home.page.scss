@@ -1,4 +1,4 @@
-ion-card-header.ios {
+/* ion-card-header.ios {
     height: 50px;
     display: flex;
     flex-flow: column-reverse;
@@ -7,4 +7,20 @@ ion-card-header.ios {
 img{
     height: 300px;
     margin-top:  80%;
+   } */
+
+   .md-card-bg .md-card-subtitle,
+   .md-card-bg .md-card-title {
+       position: absolute;
+       top: 50%;
+       color: #fff;
+       width: 100%;
+   }
+   
+   .md-card-bg .md-card-title {
+       margin-top: -30px;
+   }
+   
+   .md-card-bg .md-card-subtitle {
+       margin-top: 10px;
    }
