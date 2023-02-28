@@ -4,9 +4,7 @@
       <ion-menu-button auto-hide="false"></ion-menu-button>
     </ion-buttons>
   
-    <ion-title>
-      Hola Jair <ion-icon name="happy"></ion-icon>
-    </ion-title>
+    <ion-title>Inicio</ion-title>
 
     <ion-buttons slot="end">
     <ion-button>
@@ -22,7 +20,6 @@
       <ion-card-subtitle> Hola Jair </ion-card-subtitle>
       <ion-card-title>
         Bienvenido de nuevo
-        <ion-icon name="happy-outline"></ion-icon>
       </ion-card-title>
     </ion-card-header>
   
@@ -33,21 +30,57 @@
   </ion-card>
   
   <ion-card class="md-card-bg">
-    <img src="https://img.mobiscroll.com/demos/card_6.png">
-    <h2 class="md-card-title align-center">Buenos dias</h2>
-    <h5 class="md-card-subtitle align-center ion-bold">Jair BB</h5>
+    <img src="../../assets/dias.png">
+    <h2 class="md-card-title">Buenos Dias</h2>
+    <!-- <h5 class="md-card-subtitle ion-bold">Jair BB</h5> -->
 </ion-card>
 
+<ion-grid>
+  <ion-row>
+    <ion-col col-6>
+      <ion-card class="mod-cards">
+        <ion-icon name="person"></ion-icon>
+        <h2>Perfil</h2>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card class="mod-cards">
+        <ion-icon name="people"></ion-icon>
+        <h2>Grupo</h2>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-6>
+      <ion-card class="mod-cards">
+        <ion-icon name="settings"></ion-icon>
+        <h2>Settings</h2>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card class="mod-cards">
+        <ion-icon name="list"></ion-icon>
+        <h2>Tasks</h2>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-6>
+      <ion-card class="mod-cards">
+        <ion-icon name="add"></ion-icon>
+        <h2>Add Task</h2>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+        <ion-card class="mod-cards">
+          <ion-icon name="calendar"></ion-icon>
+          <h2>Appointment</h2>
+        </ion-card>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+
   <ion-card>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img src="../../assets/user.jpg">
-      </ion-avatar>
-      <ion-label>
-        <h3>John Doe</h3>
-        <p>Dec 10, 2019</p>
-      </ion-label>
-    </ion-item>
     <img src="../../assets/planta.jpg" alt="ion">
     <ion-card-header>
       <ion-card-title>Planta 1</ion-card-title>
