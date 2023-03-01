@@ -42,6 +42,7 @@ img{
     text-align: center;
     color: rgb(60, 60, 67);
     background-color: #ffffff;
+    height: auto;
 }
 
     .col-grados{
@@ -65,4 +66,8 @@ img{
 
     ion-content{ 
         --ion-background-color:#F3F6FB; 
+    }
+
+    .tareas{
+        height: 75px;
     }
