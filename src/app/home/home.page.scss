@@ -41,5 +41,28 @@ img{
     .mod-cards{
     text-align: center;
     color: rgb(60, 60, 67);
-    background-color: rgba(64, 225, 46, 0.644);
+    background-color: #ffffff;
 }
+
+    .col-grados{
+        color: rgb(242, 141, 53);
+        text-align: center;
+    }
+
+    .col-lluvia{
+        color: rgb(24, 132, 220);
+        text-align: center;
+    }
+
+    .col-hum{
+        color: rgb(229, 36, 36);
+        text-align: center;
+    }
+
+    h4{
+        font-weight: bold;
+    }
+
+    ion-content{ 
+        --ion-background-color:#F3F6FB; 
+    }
