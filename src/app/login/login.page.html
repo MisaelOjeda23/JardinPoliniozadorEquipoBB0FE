@@ -1,31 +1,41 @@
-<ion-header>
+<ion-header class="ion-no-border">
   <ion-toolbar color="success">
-    <ion-title>LOGIN</ion-title>
+    <img class="img-sublogo" src="../../assets/letras.png" alt="ion">
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  <ion-item>
-    <ion-label>
-      Email
-      <ion-input type="text" [(ngModel)]="user.email"></ion-input>
-    </ion-label>
-  </ion-item>
+<ion-content class="auth-form" color="light">
+  <div  class="main-header"></div>
 
-  <ion-item>
-    <ion-label>
-      Password
-      <ion-input type="password" [(ngModel)]="user.password"></ion-input>
-    </ion-label>
-  </ion-item>
+  <span class="tittle-main">Automatización Jardin Polinizador</span>
+  <div  class="img-plant"></div>
+  <div  class="img-plant2"></div>
 
-  <ion-item-divider>
-    <ion-button size="large" (click)="onLogin()" color="success">
-      Login
-    </ion-button>
+  <ion-grid>
+    <ion-row>
+      <ion-col aling-self-center>
+        <ion-item>
+          <ion-label class="output-desing">
+            Correo
+            <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+          </ion-label>
+        </ion-item>
 
-    <ion-button size="large" routerLink="/register" color="success">
-      Registrate
-    </ion-button>
-  </ion-item-divider>
+        <ion-item>
+          <ion-label class="output-desing">
+            Contraseña
+            <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+          </ion-label>
+        </ion-item>
+      
+        <ion-button class="button-one" size="large" (click)="onLogin()"  expand="block" color="success">
+          Login
+        </ion-button>
+        <span class="divider line one-line"></span>
+        <ion-button class="button-one" size="large" routerLink="/register" expand="block" color="success">
+          Registrate
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

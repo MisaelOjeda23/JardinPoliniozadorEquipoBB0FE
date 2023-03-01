@@ -1,0 +1,73 @@
+ion-header{
+    background: transparent;
+    .img-sublogo{
+        width: 50%;
+        padding-top: 10px;
+    }
+}
+
+ion-content{
+    .main-header{
+        height: 45vh;
+        height: 420px;
+        background: rgba(222,236,226,1);
+        opacity: 1;
+        top: 3px;
+        left: 6px;
+        border-bottom-right-radius: 150px;
+        overflow: hidden;
+/*       height: 45vh;
+        width: 150%;
+        background: linear-gradient(90deg, var(--ion-color-success) 10%, var(--ion-color-success-tint) 100%);
+        border-radius: 0 0 50% 50%;
+        margin-left: -15vh;
+        margin-top: -60px; */
+    }
+    .tittle-main{
+        width: 340px;
+        color: rgba(102,77,77,1);
+        position: absolute;
+        top: 70px;
+        left: 27px;
+        font-family: No Virus;
+        font-weight: bold;
+        font-size: 50px;
+        opacity: 1;
+        text-align: left;
+    }
+    .img-plant{
+        width: 225px;
+        height: 250px;
+        background: url(../../assets/plant.decoration.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 110px;
+        left: 270px;
+        overflow: hidden;
+    }
+    .img-plant2{
+    width: 217px;
+    height: 200px;
+    background: url(../../assets/plant.decoration.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    overflow: hidden;
+    }
+    .button-one{
+        margin: 20px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .output-desing{
+        font-size: 18px;
+        font-weight: 200;
+    }
+}
