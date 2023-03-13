@@ -16,8 +16,11 @@ export class HomePage implements OnInit {
   lastHumedad: Mediciones;
   lastLluvia: Mediciones;
 
+  techo_state: boolean;
+
   constructor(public database: AngularFireDatabase) {
     this.leerMediciones();
+    this.leerTecho();
    }
 
   ngOnInit() {
@@ -35,6 +38,15 @@ export class HomePage implements OnInit {
       this.lastLluvia = this.mediciones[0];
     })
   }
+
+  leerTecho () {
+    const path = 'Jardin/techo';
+    this.database.object<boolean>(path).valueChanges().subscribe( res => {
+      if (res != undefined) {
+        this.techo_state = res;
+      }
+    });
+  } 
 }
 
 

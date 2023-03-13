@@ -14,11 +14,22 @@
       <ion-card-title>Techo Movil</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis mollis ligula sed ultrices.
+      <ion-item>
+        <ion-label class="estado">
+          Estado: {{techo_state}}
+        </ion-label>
+        <ion-label class="estado">
+          Estado: {{techo}}
+        </ion-label>
+      </ion-item>
     </ion-card-content>
+
     <div class="tenedor">
-      <ion-toggle></ion-toggle>
+      <ion-toggle (ionChange)="toggleChangePrender($event)"></ion-toggle>
     </div>
+
+    <br>
+    <br>
 
   </ion-card>
 
